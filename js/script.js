@@ -9,9 +9,7 @@ btnReset.addEventListener('click', () => {
 })
 btnEnter.addEventListener('click', () => {
     getInput.innerHTML = inputText.value;
-})
 
-btnEnter.addEventListener('click', () => {
     if (!inputText.value.length) {
         showText.classList.add('is-visible');
     }
